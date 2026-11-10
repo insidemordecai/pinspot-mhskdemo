@@ -1,0 +1,53 @@
+h1 {
+  color: blueviolet
+}
+
+body {
+  margin: 0;
+  font-family: "Libre Caslon Condensed";
+  background-color: black
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  /* background: #000000; */
+  padding: 0 32px;
+  height: 64px;
+}
+
+/* The Links */
+.navbar a {
+  color: #cccccc;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* The Logo  */
+.logo {
+  display: flex;
+  align-items: center;
+  /* gap: 10px; */
+  color: white;
+
+  font-size: 18px;
+  font-weight: bold;
+
+}
+.logo-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  color: white;
+  border-radius: 50%;      /* makes a circle*/
+  background: green;
+  font-size: 13px;
+}
+.green{
+  color: green;
+}
+
+
